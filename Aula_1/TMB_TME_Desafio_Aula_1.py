@@ -1,4 +1,5 @@
 def calcular_tmb_tme(pm, grupo, flag):
+    
 #Convertendo o flag
     if flag == 1:
         flag = 'B'
@@ -16,6 +17,7 @@ def calcular_tmb_tme(pm, grupo, flag):
         k = 49
     else:
         k = 10
+        
 #Calculando TMB ou TME
     if flag == 'B':
         tmb = (pm**0.75) * k
